@@ -1,0 +1,1 @@
+cmd_/home/csuser/CPSC346/Project_2/simple.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/csuser/CPSC346/Project_2/simple.ko /home/csuser/CPSC346/Project_2/simple.o /home/csuser/CPSC346/Project_2/simple.mod.o ;  true
